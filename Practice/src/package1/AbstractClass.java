@@ -48,7 +48,7 @@ public class AbstractClass {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter the radius :");
+		System.out.println("Enter the radius  :");
 		int rd = sc.nextInt();
 		Circle circle = new Circle(rd);
 		System.out.println("Area of circle = " + circle.calculateArea());
